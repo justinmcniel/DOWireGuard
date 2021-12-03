@@ -68,3 +68,13 @@ For the Digital Ocean/Wire Guard project for class
         -  The list of timezones can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones  
     - Find the droplet's IP address, on the Digital Ocean dashboard, and set the `SERVERURL` to the IP address 
     - Set `PEERS` to the number of devices you're going to connect to it
+    - Hit `CTRL`+`X`, `Y`, `ENTER` to save changes to the file
+5. Start wireguard
+    - `cd ~/wireguard/`
+    - `docker-compose up -d`
+        - This may take a second
+6. Connect phone to wireguard
+    - `docker-compose logs -f wireguard`
+        - This should show a QR code for each device you told it to generate the logs for
+    - Open the Wireguard app on your phone
+    - Click `+` then `Create from QR code`
