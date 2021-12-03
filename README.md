@@ -94,3 +94,5 @@ For the Digital Ocean/Wire Guard project for class
 ![image](https://user-images.githubusercontent.com/72999136/144679756-70841e62-3e30-4256-90fc-14775629414d.png)
     - After:
 ![desktopAFTER](https://user-images.githubusercontent.com/72999136/144680047-70d54c88-f56b-459f-bf97-66fd6538e54b.png)
+
+# Be sure to DESTROY the droplet if you are not going to continue using it, unless it is destroyed, you will continue to be billed for it
