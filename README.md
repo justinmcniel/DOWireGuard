@@ -78,3 +78,8 @@ For the Digital Ocean/Wire Guard project for class
         - This should show a QR code for each device you told it to generate the logs for
     - Open the Wireguard app on your phone
     - Click `+` then `Create from QR code`
+    - Before: 
+![phoneB4](https://user-images.githubusercontent.com/72999136/144678312-95c8d279-26a6-4f27-b959-b994cb37e618.jpg)
+    - After:
+    - Note: I was using cellular for this (both before and after)
+7. Connect your laptop/desktop
