@@ -87,4 +87,10 @@ For the Digital Ocean/Wire Guard project for class
     - Install wireguard from https://www.wireguard.com/install/
     - Go to your droplet's console and type in `cat ~/wireguard/config/{peername}/{peername}.conf` replacing `{peername}` with the name of the peer you're using, for me it was `peer2`, which was the second peer
         - If you are still in the log screen, you can hit `CTRL`+`C` to be able to enter commands again
-    - 
+    - Copy or download that to your local machine (laptop/desktop) in a corresponding file
+    - Click Add Tunnel, and select the config file that you just created/downloaded
+    - Click `Activate`
+    - Before:
+![image](https://user-images.githubusercontent.com/72999136/144679756-70841e62-3e30-4256-90fc-14775629414d.png)
+    - After:
+![desktopAFTER](https://user-images.githubusercontent.com/72999136/144680047-70d54c88-f56b-459f-bf97-66fd6538e54b.png)
