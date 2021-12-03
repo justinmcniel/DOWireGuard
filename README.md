@@ -81,5 +81,10 @@ For the Digital Ocean/Wire Guard project for class
     - Before: 
 ![phoneB4](https://user-images.githubusercontent.com/72999136/144678312-95c8d279-26a6-4f27-b959-b994cb37e618.jpg)
     - After:
+![phoneAFTER](https://user-images.githubusercontent.com/72999136/144678546-e8a274f9-b760-4ff1-a08f-edbfd9464917.jpg)
     - Note: I was using cellular for this (both before and after)
 7. Connect your laptop/desktop
+    - Install wireguard from https://www.wireguard.com/install/
+    - Go to your droplet's console and type in `cat ~/wireguard/config/{peername}/{peername}.conf` replacing `{peername}` with the name of the peer you're using, for me it was `peer2`, which was the second peer
+        - If you are still in the log screen, you can hit `CTRL`+`C` to be able to enter commands again
+    - 
